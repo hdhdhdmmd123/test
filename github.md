@@ -70,5 +70,46 @@ Password for 'https://hdhdhdmmd123@github.com': 这个就是GitHub的密码
 
 ![1557378389194](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1557378389194.png)
 
-成功了2
+成功了
 
+
+
+## 4.文件有改动并更新到 GitHub 上
+
+### 更新代码
+
+#### 第一步：查看当前的git仓库状态，可以使用git status
+
+```
+git status
+```
+
+### 第二步：更新全部
+
+```
+git add *
+```
+
+### 第三步：接着输入git commit -m "更新说明"
+
+```
+git commit -m "更新说明"
+```
+
+### 第四步：先git pull,拉取当前分支最新代码
+
+```
+git pull
+```
+
+### 第五步：push到远程master分支上
+
+```
+git push origin master
+```
+
+![1557378942151](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1557378942151.png)
+
+![1557378958245](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1557378958245.png)
+
+成功了
